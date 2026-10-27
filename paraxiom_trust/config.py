@@ -21,7 +21,7 @@ class ParaxiomTrustConfig:
     # Key storage directory
     key_dir: str = "~/.scienceclaw/paraxiom_keys"
 
-    # Enable Coherence Shield filtering on LLM calls
+    # Route LLM calls through the Coherence Shield proxy
     coherence_shield_enabled: bool = False
     coherence_shield_url: str = "http://127.0.0.1:3080"
 

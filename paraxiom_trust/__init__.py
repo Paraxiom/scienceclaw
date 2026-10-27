@@ -8,7 +8,7 @@ Integration points:
 - Artifact signing: ML-DSA-87 (FIPS 204) signatures, opt-in via paraxiom_trust.json
 - Content attestation: SHA3-256 content hash + PQC signature
 - Blockchain anchoring: QuantumHarmony on-chain attestation (planned, not implemented)
-- Coherence Shield: LLM output filtering for agent synthesis steps
+- Coherence Shield: optional routing of LLM calls through the Shield proxy
 
 Paraxiom Technologies Inc. — Montreal
 https://paraxiom.org
